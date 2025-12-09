@@ -1,7 +1,7 @@
 import readline from "readline-sync";
 import { GoogleGenAI } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyCUf1LDuyp5hP0Pnp-WjP99ePOYSp6afYQ" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 async function main() {
   while (true) {
