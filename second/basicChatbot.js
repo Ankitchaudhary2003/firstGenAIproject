@@ -8,7 +8,7 @@ Exercise 1: Basic Chatbot
 import { GoogleGenAI } from "@google/genai";
 import readline from "readline";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyDvlBdA_Ckf03_iBrrqakpI8UkU_y8XWjw" });
+const ai = new GoogleGenAI({ apiKey: "enter api key here" });
 
 const rl = readline.createInterface({
   input: process.stdin,
